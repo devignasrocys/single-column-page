@@ -1,0 +1,89 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.primary-header {
+    width: 80%;
+    max-width: 23.437rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 3rem;
+    margin: 2rem 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.hero .bold {
+    font-weight: 700;
+}
+.hero p {
+   margin-bottom: 1rem;
+}
+
+.hero input{
+    width: 100%;
+    padding: .5rem 2rem;
+    border-radius: 1.75rem;
+    border: 1px solid #C2D3FF;
+    margin-bottom: .5rem;
+}
+
+.hero .btn {
+    width: 100%;
+    padding: .8rem 0;
+    border-radius: 1.75rem;
+    background-color: #4C7BF3;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #3062e0;
+}
+
+.main {
+    margin: 2rem 0;
+    width: 80%;
+    max-width: 23.437rem;
+}
+
+footer {
+    width: 80%;
+    max-width: 23.437rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-header  {
+    margin: 1rem 0;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .primary-header,
+    .main,
+    footer {
+        max-width: 48rem;
+    }
+}
